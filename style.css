@@ -1,0 +1,62 @@
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 0.05fr); /* 3 items per row */
+    gap: 10px; /* Adds spacing between items */
+    justify-content: center;
+}
+
+.boxes div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.title{
+    justify-content: center;
+    font-style: italic;
+    font-size: medium;
+    align-items: center;
+    display: flex;
+    text-decoration-color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.options{
+    grid-template-columns: repeat(2, 0.05fr); /* 2 items per row */
+    display: grid;
+    gap: 800px;
+}
+
+
+.reset{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 40px;
+    font-weight: bold;
+    padding-inline-start: 5cm;
+
+}
+
+.newGame{
+display: flex;
+height: 150px;
+    width: 150px;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 40px;
+    font-weight: bold;
+    display: grid;
+    padding-inline-start: 5cm;
+}
